@@ -329,11 +329,11 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                 break;
             // Sleep
             case 1:
-                DOTUtils.switchScreenOff(getContext());
+                SuperiorUtils.switchScreenOff(getContext());
                 break;
             // Flashlight
             case 2:
-                DOTUtils.toggleCameraFlash();
+                SuperiorUtils.toggleCameraFlash();
                 break;
         }
     }
