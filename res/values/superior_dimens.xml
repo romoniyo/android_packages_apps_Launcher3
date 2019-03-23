@@ -20,4 +20,5 @@
     <dimen name="task_corner_radius_default">2dp</dimen>
     <dimen name="task_corner_radius_round">8dp</dimen>
     <dimen name="task_corner_radius_op">16dp</dimen>
+    <dimen name="task_corner_radius">16dp</dimen>
 </resources>
