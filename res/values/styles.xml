@@ -57,7 +57,7 @@
         <item name="workspaceStatusBarScrim">@null</item>
     </style>
 
-    <style name="LauncherThemeDark" parent="@style/LauncherTheme">
+    <style name="LauncherTheme.Dark" parent="@style/LauncherTheme">
         <item name="android:textColorPrimary">#FFFFFFFF</item>
         <item name="android:textColorSecondary">#FFFFFFFF</item>
         <item name="android:textColorTertiary">#CCFFFFFF</item>
@@ -75,7 +75,7 @@
         <item name="fastscrollerTextColor">#000000</item>
     </style>
 
-    <style name="LauncherThemeDark.DarKText" parent="@style/LauncherThemeDark">
+    <style name="LauncherTheme.Dark.DarkText" parent="@style/LauncherTheme.Dark">
         <item name="allAppsInterimScrimAlpha">25</item>
         <item name="workspaceTextColor">#FF212121</item>
         <item name="workspaceShadowColor">@android:color/transparent</item>
@@ -156,6 +156,7 @@
         <item name="android:saveEnabled">false</item>
         <item name="android:textColor">?attr/fastscrollerTextColor</item>
         <item name="android:includeFontPadding">false</item>
+        <item name="android:importantForAccessibility">no</item>
     </style>
 
     <!-- Base theme for BubbleTextView and sub classes -->

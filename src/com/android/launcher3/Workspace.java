@@ -3538,7 +3538,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
         launchIntent.setPackage("com.google.android.googlequicksearchbox");
         launchIntent.setClassName("com.google.android.googlequicksearchbox",
                 "com.google.android.googlequicksearchbox.SearchActivity");
-        if (DOTUtils.isPackageInstalled(context,
+        if (SuperiorUtils.isPackageInstalled(context,
                 "com.google.android.googlequicksearchbox")) {
             context.startActivity(launchIntent);
         } else {
